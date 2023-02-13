@@ -34,7 +34,7 @@ if(!isset($_SESSION["login"]) ) {
 
             <!-- Item List -->
             <!-- Dashboard -->
-                <a href="index.html">
+                <a href="index.php">
                     <div class="dashboard">
                         <i class="fa-solid fa-gauge fa-2x"></i>
                         <span class="item">Dashboard</span>
