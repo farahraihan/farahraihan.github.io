@@ -1,0 +1,262 @@
+body {
+    background-color: #6b63ff16;
+}
+
+body, h2{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .sidebar {
+    background: #101024f4;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 30px;
+    margin-bottom: 15px;    
+}
+
+.container .sidebar .header {
+    margin: 20px auto 20px;
+    width: 90%;
+    border-bottom: 2px solid #515774f8;
+    display: flex;
+    justify-content: center;
+}
+
+#dashboard_profile {
+    width: 150px;
+    height: 150px;
+}
+
+.container .sidebar .icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.fa-solid {
+    width: 50px;
+    color: #515774f8;
+    margin-left: 20px;
+    align-content: end;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: rgba(81, 87, 116, 0.4);
+}
+
+.item {
+    color: rgb(187, 186, 186);
+    font-size: 20px;
+}
+
+.container .sidebar .dashboard {
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.container .sidebar .approval {
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.container .sidebar .map {
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.container .sidebar .data {
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.container .sidebar .account {
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.container .sidebar .footer {
+    margin-top: auto;
+    border-top: 2px solid #515774f8;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.footer a:link, a:visited {
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #515774cd;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+.footer a:hover, a:active {
+    background-color: rgb(108, 99, 255, 0.7);
+}
+
+/* CONTENT STYLE */
+
+.container .content .row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .content .row1 .total {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 300px;
+    width: 150px;
+    box-shadow: 0px 0px 2px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.container .content .row1 .chart {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 300px;
+    width: 780px;
+    justify-content: space-between;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.container .content .row1 .chart .chart1, .chart2, .chart3{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    box-shadow: 0px 0px 2px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+p {
+    margin: 1px;
+    color: rgba(93, 0, 255, 0.665);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin: 1px;
+    padding: 2px;
+    border: 1px solid #1010247c;
+    box-shadow: 0px 0px 1px;
+}
+
+.t1, .t2, .t3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .content .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.container .content .row2 .chart4, .chart5 {
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    background-color: white;
+    height: 350px;
+    box-shadow: 0px 0px 2px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container .content .row3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+}
+
+table {
+    box-shadow: 0px 0px 2px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+  
+
+
+
+
+
